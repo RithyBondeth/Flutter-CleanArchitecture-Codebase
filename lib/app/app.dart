@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ie_portal_agent_mobile/config/routes/app_routes.dart';
 import 'package:ie_portal_agent_mobile/config/themes/app_themes.dart';
-import 'package:ie_portal_agent_mobile/presentation/pages/home.dart';
+import 'package:ie_portal_agent_mobile/core/constants/routes_constant.dart';
+import 'package:ie_portal_agent_mobile/presentation/pages/home_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -13,6 +15,10 @@ class App extends StatelessWidget {
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
       home: HomePage(),
+
+      //Routes setup
+      initialRoute: RoutesConstant.home,
+      onGenerateRoute: AppRoutes.onGenerateRoute,
     );
   }
 }
