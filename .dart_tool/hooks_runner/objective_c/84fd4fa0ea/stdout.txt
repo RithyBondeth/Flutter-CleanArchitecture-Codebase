@@ -1,0 +1,53 @@
+Running `(cd /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/; ANDROID_HOME=/Users/bondeth/Library/Android/sdk TMPDIR=/var/folders/ww/hgpy7wxj7yd2thm9mgqdkshm0000gn/T/ PATH=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Users/bondeth/.antigravity/antigravity/bin:/Users/bondeth/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/opt/homebrew/bin:/Users/bondeth/Development/flutter/bin:/Users/bondeth/.pub-cache/bin HOME=/Users/bondeth /Users/bondeth/Development/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/package_config.json /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/objective_c/84fd4fa0ea/hook.dill --config=/Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/objective_c/84fd4fa0ea/input.json )`.
+INFO: 2026-02-21 15:27:12.412656: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-02-21 15:27:12.443354: Running `/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --version`.
+
+INFO: 2026-02-21 15:27:12.514968: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 -c /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/include/dart_api_dl.c -fpic -I src -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-02-21 15:27:12.515799: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/input_stream_adapter.m -fpic -I src -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/input_stream_adapter.m.o
+INFO: 2026-02-21 15:27:12.515938: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c.m -fpic -I src -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c.m.o
+
+INFO: 2026-02-21 15:27:12.516096: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/observer.m -fpic -I src -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/observer.m.o
+
+INFO: 2026-02-21 15:27:12.516503: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/protocol.m -fpic -I src -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/protocol.m.o
+
+
+
+INFO: 2026-02-21 15:27:12.516626: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 -x objective-c -fobjc-arc -c /Users/bondeth/.pub-cache/hosted/pub.dev/objective_c-9.3.0/src/objective_c_bindings_generated.m -fpic -I src -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-02-21 15:27:12.615761: 
+INFO: 2026-02-21 15:27:12.615787: 
+INFO: 2026-02-21 15:27:12.615809: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/include/dart_api_dl.c.o
+
+2-21 15:27:12.615566: 
+INFO: 2026-02-21 15:27:12.615629: 
+INFO: 2026-02-21 15:27:12.615654: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c.c.o
+
+INFO: 2026-02-21 15:27:12.622700: 
+INFO: 2026-02-21 15:27:12.622754: 
+INFO: 2026-02-21 15:27:12.622770: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/protocol.m.o
+
+INFO: 2026-02-21 15:27:12.727208: 
+INFO: 2026-02-21 15:27:12.727321: 
+INFO: 2026-02-21 15:27:12.727337: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/ns_number.m.o
+
+INFO: 2026-02-21 15:27:12.735475: 
+INFO: 2026-02-21 15:27:12.735510: 
+INFO: 2026-02-21 15:27:12.735520: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c.m.o
+
+INFO: 2026-02-21 15:27:12.739907: 
+INFO: 2026-02-21 15:27:12.739932: 
+INFO: 2026-02-21 15:27:12.739943: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-02-21 15:27:12.745175: 
+INFO: 2026-02-21 15:27:12.745195: 
+INFO: 2026-02-21 15:27:12.745205: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-02-21 15:27:12.745504: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios-simulator -mios-version-min=13 /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/include/dart_api_dl.c.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c.c.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/input_stream_adapter.m.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c.m.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/observer.m.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/ns_number.m.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/protocol.m.o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/obj/src/objective_c_bindings_generated.m.o -o /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/objective_c.dylib
+
+INFO: 2026-02-21 15:27:12.820743: 
+INFO: 2026-02-21 15:27:12.820826: ld: warning: -undefined dynamic_lookup is deprecated on iOS-simulator
+
+INFO: 2026-02-21 15:27:12.820845: Generated /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/objective_c.dylib
+
