@@ -1,0 +1,1 @@
+ /Users/bondeth/Projects/Tutorials/flutter-cleanarchitecture-codebase/.dart_tool/flutter_build/28d371313e32b669437ef1a4c8c77d7d/native_assets.json: 
