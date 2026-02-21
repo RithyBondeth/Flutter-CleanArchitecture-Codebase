@@ -1,6 +1,6 @@
 {
-    "name": "ie_portal_agent_mobile",
-    "short_name": "ie_portal_agent_mobile",
+    "name": "flutter_cleanarchitecture_codebase",
+    "short_name": "flutter_cleanarchitecture_codebase",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

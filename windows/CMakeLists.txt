@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(ie_portal_agent_mobile LANGUAGES CXX)
+project(flutter_cleanarchitecture_codebase LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "ie_portal_agent_mobile")
+set(BINARY_NAME "flutter_cleanarchitecture_codebase")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
