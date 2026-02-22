@@ -44,6 +44,21 @@ const _prodBaseUrl = String.fromEnvironment(
   defaultValue: 'https://jsonplaceholder.typicode.com',
 );
 
+const _devDummyDomainBaseUrl = String.fromEnvironment(
+  'DEV_DUMMY_DOMAIN_BASE_URL',
+  defaultValue: 'https://dummyjson.com/',
+);
+
+const _stagingDummyDomainBaseUrl = String.fromEnvironment(
+  'STAGING_DUMMY_DOMAIN_BASE_URL',
+  defaultValue: 'https://dummyjson.com/',
+);
+
+const _prodDummyDomainBaseUrl = String.fromEnvironment(
+  'PROD_DUMMY_DOMAIN_BASE_URL',
+  defaultValue: 'https://dummyjson.com/',
+);
+
 final appEnvProvider = Provider<AppEnvironment>(
   (ref) => _parseAppEnvironment(_environmentStr),
 );
@@ -55,6 +70,18 @@ final apiConfigProvider = Provider<ApiConfig>((ref) {
     AppEnvironment.dev => _devBaseUrl,
     AppEnvironment.staging => _stagingBaseUrl,
     AppEnvironment.prod => _prodBaseUrl,
+  };
+
+  return ApiConfig(baseUrl: baseUrl);
+});
+
+final apiConfigDummyDomainProvider = Provider<ApiConfig>((ref) {
+  final env = ref.watch(appEnvProvider);
+
+  final baseUrl = switch (env) {
+    AppEnvironment.dev => _devDummyDomainBaseUrl,
+    AppEnvironment.staging => _stagingDummyDomainBaseUrl,
+    AppEnvironment.prod => _prodDummyDomainBaseUrl,
   };
 
   return ApiConfig(baseUrl: baseUrl);
