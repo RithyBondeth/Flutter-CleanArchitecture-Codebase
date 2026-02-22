@@ -2,6 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_cleanarchitecture_codebase/features/users/data/dto/user_dto.dart';
 import 'package:flutter_cleanarchitecture_codebase/features/users/data/providers/user_provider.dart';
+import 'package:flutter_cleanarchitecture_codebase/routes/app_router.gr.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 @RoutePage(name: "MainUserScreen")
@@ -15,7 +16,13 @@ class MainUserScreen extends ConsumerWidget {
     );
 
     return Scaffold(
-      appBar: AppBar(title: Text('Main User Screen')),
+      appBar: AppBar(
+        title: Text('Main User Screen'),
+        leading: IconButton(
+          onPressed: () => context.router.push(MainPostScreen()),
+          icon: Icon(Icons.person),
+        ),
+      ),
       body: userDataAsync.when(
         skipLoadingOnRefresh: false,
         data: (userList) => _buildBody(userList: userList, ref),
