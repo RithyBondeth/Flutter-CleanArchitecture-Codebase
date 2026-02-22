@@ -26,6 +26,7 @@ class MainPostScreen extends ConsumerWidget {
     return RefreshIndicator.adaptive(
       onRefresh: () => ref.read(postProvider.notifier).refresh(),
       child: ListView.builder(
+        physics: const AlwaysScrollableScrollPhysics(),
         shrinkWrap: true,
         itemCount: postList.length,
         itemBuilder: (_, index) => Padding(

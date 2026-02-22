@@ -5,13 +5,13 @@ import 'package:flutter_cleanarchitecture_codebase/features/posts/data/repositor
 import 'package:flutter_cleanarchitecture_codebase/features/posts/domain/interfaces/post_interface.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class PostNotifier extends AsyncNotifier<List<PostDto>> {
-  final postsRepositoryProvider = Provider<PostInterface>((ref) {
-    final client = ref.read(httpClientProvider);
-    final apiConfig = ref.read(apiConfigProvider);
-    return PostRepository(client: client, apiConfig: apiConfig);
-  });
+final postsRepositoryProvider = Provider<PostInterface>((ref) {
+  final client = ref.read(httpClientProvider);
+  final apiConfig = ref.read(apiConfigProvider);
+  return PostRepository(client: client, apiConfig: apiConfig);
+});
 
+class PostNotifier extends AsyncNotifier<List<PostDto>> {
   @override
   Future<List<PostDto>> build() async {
     final postRepo = ref.read(postsRepositoryProvider);
@@ -20,7 +20,10 @@ class PostNotifier extends AsyncNotifier<List<PostDto>> {
 
   Future<void> refresh() async {
     final postRepo = ref.read(postsRepositoryProvider);
-    state = AsyncData(await postRepo.fetchPosts());
+    // optional: show loading in UI while refreshing
+    state = const AsyncLoading();
+    // handles try/catch automatically
+    state = await AsyncValue.guard(() => postRepo.fetchPosts());
   }
 }
 
