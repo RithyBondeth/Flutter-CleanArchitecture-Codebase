@@ -1,0 +1,1 @@
+ /Users/bondeth/Projects/Flutter-CleanArchitecture-Codebase/.dart_tool/flutter_build/e7f1f3f7a5aea5929d5dcf5ca82e5719/native_assets.json:  /Users/bondeth/Projects/Flutter-CleanArchitecture-Codebase/.dart_tool/hooks_runner/shared/objective_c/build/84fd4fa0ea/objective_c.dylib

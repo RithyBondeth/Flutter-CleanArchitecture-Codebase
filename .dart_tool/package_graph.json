@@ -9,6 +9,7 @@
       "dependencies": [
         "auto_route",
         "cupertino_icons",
+        "dio",
         "flutter",
         "flutter_riverpod",
         "google_fonts",
@@ -104,6 +105,19 @@
         "path",
         "source_gen",
         "xml"
+      ]
+    },
+    {
+      "name": "dio",
+      "version": "5.10.0",
+      "dependencies": [
+        "async",
+        "collection",
+        "dio_web_adapter",
+        "http_parser",
+        "meta",
+        "mime",
+        "path"
       ]
     },
     {
@@ -595,15 +609,13 @@
       ]
     },
     {
-      "name": "path_provider",
-      "version": "2.1.5",
+      "name": "dio_web_adapter",
+      "version": "2.2.0",
       "dependencies": [
-        "flutter",
-        "path_provider_android",
-        "path_provider_foundation",
-        "path_provider_linux",
-        "path_provider_platform_interface",
-        "path_provider_windows"
+        "dio",
+        "http_parser",
+        "meta",
+        "web"
       ]
     },
     {
@@ -614,6 +626,18 @@
         "source_span",
         "string_scanner",
         "typed_data"
+      ]
+    },
+    {
+      "name": "path_provider",
+      "version": "2.1.5",
+      "dependencies": [
+        "flutter",
+        "path_provider_android",
+        "path_provider_foundation",
+        "path_provider_linux",
+        "path_provider_platform_interface",
+        "path_provider_windows"
       ]
     },
     {
